@@ -50,6 +50,6 @@ And simple as that your input will be handled automagically.
 
 ## TODO List
 
-- [] Handle gamepad axis
-- [] Test gamepad functionalities
-- [] Support multiple joysticks (won't resolve until I need it)
+- [ ] Handle gamepad axis
+- [ ] Test gamepad functionalities
+- [ ] Support multiple joysticks (won't resolve until I need it)
