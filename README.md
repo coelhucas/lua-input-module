@@ -12,7 +12,7 @@ local Input = require 'input'
 
 function love.load()
   input = Input.new()
-  -- To register an action called 'left' which will be triggered with A, left arrow or left mousebutton
+  -- To register an action called 'left' which will be triggered with A, left arrow or left mouse button
   input:bind(key = { 'a', 'left' }, mouse = left, 'left')
 end
 
@@ -46,6 +46,16 @@ And simple as that your input will be handled automagically.
 
   -- Check for binded action just released
   if input:down('start') then print('released start action') end
+
+  -- [[
+  Mouse buttons mapped to love indexes:
+  left = 1
+  right = 2
+  middle = 3
+
+  You didn't need to worry about it, just using left, right or middle and mouse's table
+  field and it'll be converted internally
+  ]]--
 ```
 
 ## TODO List
