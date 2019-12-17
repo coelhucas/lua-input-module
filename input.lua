@@ -119,4 +119,9 @@ function Input:down(action)
   end
 end
 
+-- Receive Mouse position
+function Input:getMousePosition()
+  return love.mouse.getPosition()
+end
+
 return Input

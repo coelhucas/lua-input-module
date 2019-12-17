@@ -47,6 +47,9 @@ And simple as that your input will be handled automagically.
   -- Check for binded action just released
   if input:down('start') then print('released start action') end
 
+  -- Check mouse position (Just the love.mouse.getPosition() wrapped inside input)
+  input:getMousePosition()
+
   -- [[
   Mouse buttons mapped to love indexes:
   left = 1
