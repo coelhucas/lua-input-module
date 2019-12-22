@@ -3,7 +3,7 @@
 Lua Input Module library. It has simple asbtractions on top of the love input functions and isn't totally complete yet [1]
 It's a great alternative to make different inputs being handled with only one registered action.
 
-[1] - Input Axis are not handled yet, and gamepad actions must be tested.
+[1] - [check the current TODO list](#todo-list)
 
 ## Example
 
@@ -50,13 +50,13 @@ And simple as that your input will be handled automagically.
   -- Check mouse position (Just the love.mouse.getPosition() wrapped inside input)
   input:getMousePosition()
 
-  -- [[
+  --[[
   Mouse buttons mapped to love indexes:
   left = 1
   right = 2
   middle = 3
 
-  You didn't need to worry about it, just using left, right or middle and mouse's table
+  You don't need to worry about it, just using left, right or middle and mouse's table
   field and it'll be converted internally
   ]]--
 ```
